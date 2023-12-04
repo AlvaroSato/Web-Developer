@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms Demo</h1>
+
+    <form action="">
+        <p>
+            <label for="username">Enter a Username</label>
+            <input id="username" type="text" placeholder="This is a Text Input" name="username">
+        </p>
+
+        <p>
+            <label for="password">Enter a Password</label>
+            <input id="password" type="password" placeholder="This is a Passowrd Input" name="password">
+        </p>
+            
+        <p>
+            <label for="color">Pick a Color</label>
+            <input id="color" type="color" name="color">
+        </p>
+        
+        <p>
+            <label for="number">Enter a Number</label>
+            <input id="number" type="number" placeholder="This is a Number Input" name="number">
+        </p>
+
+        <button> Submit </button>
+    </form>
+
+    <hr>
+
+    <h1>Radio Buttons, CheckBoxes, Selects</h1>
+    <form action="">
+        <div>
+            <input type="checkbox" name="agree_terms" id="agree">
+            <label for="agree">I Agree</label>
+        </div>
+
+        <div>
+            <label for="s">S</label>
+            <input type="radio" name="size" id="s">
+
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m">
+
+            <label for="l">L</label>
+            <input type="radio" name="size" id="l">
+        </div>
+
+        <div>
+            <label for="">Select an Entree</label>
+            <select name="meal" id="meal">
+                <option value="fish">Fish</option>
+                <option value="veg">Vegeterian</option>
+                <option value="steak">Steak</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="range">Select the Range</label>
+            <input type="range" name="range" id="range">
+        </div>
+
+        <div>
+            <label for="area">This is a Text Area</label>
+            <textarea name="area" id="area" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+
+    <hr>
+
+    <h1>Forms Validation</h1>
+
+    <form action="">
+        <div>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" id="first-name">
+        </div>
+
+        <div>
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" minlength="5">
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
