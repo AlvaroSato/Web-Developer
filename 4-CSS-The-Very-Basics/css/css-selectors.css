@@ -1,0 +1,79 @@
+/* 
+*{
+    Universal Selector
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Element Selector
+a{
+
+}
+img{
+
+}
+button{
+
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Selector List
+h1, h2{
+
+}
+a, p{
+
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+ID Selector
+#ID-Name{
+
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Class Selector
+.class-name{
+
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Descendant Selector
+li a{
+
+}
+
+span a{
+
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Adjacent Selector
+<h1>Some H1</h1>
+<p>Some Paragraph</p>
+*Here the p tag that is gone be styled, because is a p that is preceded by a h1*
+h1 + p{
+
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Direct Child
+*Select the li that are direct children of a div*
+div > li{
+
+}
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Attribute Selector
+*Select all input elements where the type attribute is set to "text"*
+input[type="text"]{
+
+}
+*/
