@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style-units.css">
+    <title>Units</title>
+</head>
+<body>
+    <h1>UNITS</h1>
+    <hr>
+
+    <h2>Percentages</h2>
+    <hr>
+    <p>
+        Percentages are always relative to some other value, sometimes it's a value from the parent and other times it's a value from the element itself
+    </p>
+    <section id="percentage-parent">
+        <p>Percentage Parent</p>
+        <div id="percentage">
+            <p>Percentage </p>
+        </div>
+    </section>
+
+    <h2>EM's</h2>
+    <hr>
+    <p>
+        Are relative units with font-size, 1em equals the font-size of the parent. 2em's is twice the font-size of the parent, etc.
+        With other properties, 1em is equal to the computed font-size of the element itself
+    </p>
+
+    <article>
+        <h2 id="h2-em">I am H2</h2>
+        <p id="p-em">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam tempora veritatis, ab iusto, ullam voluptatum at quam eum nisi doloremque nihil dolorum. Laudantium, distinctio odio magnam perferendis modi blanditiis a!
+        </p>
+    </article>
+
+    <h2>REM's</h2>
+    <hr>
+    <p>
+        Relative to the root html element's font-size. Often easier to work with.
+        If the root font-size is 20px, 1 rem is always 20px, 2rem is always 40px, etc.
+    </p>
+
+    <h3>EM's</h3>
+    <article id="article-em">
+        <ul>
+            <li>
+                Pasta
+                <ul>
+                    <li>Ravioli</li>
+                    <li>Penne</li>
+                </ul>
+            </li>
+            <li>Salad</li>
+            <li>Gelato</li>
+        </ul>
+    </article>
+
+    <h3>REM's</h3>
+    <article id="article-rem">
+        <ul>
+            <li>
+                Pasta
+                <ul>
+                    <li>Ravioli</li>
+                    <li>Penne</li>
+                </ul>
+            </li>
+            <li>Salad</li>
+            <li>Gelato</li>
+        </ul>
+    </article>
+</body>
+</html>
