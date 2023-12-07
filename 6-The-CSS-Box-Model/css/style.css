@@ -1,0 +1,48 @@
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.rectangle{
+    width: 500px;
+    height: 200px;
+    background-color: rebeccapurple;
+    text-align: center;
+}
+
+#border-1{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#border-2{
+    border-width: 2px;
+    border-color: black;
+    border-style: dashed;
+    border-radius: 10px;
+}
+
+#padd-1{
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#padd-2{
+    padding-right: 50px;
+    border: 2px solid black;
+}
+
+#margin-1{
+    margin: 10px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+
+#margin-2{
+    margin-right: 50px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
