@@ -1,0 +1,105 @@
+.title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#opacity-alpha{
+    height: 500px;
+    width: 500px;
+    background-color: crimson;
+}
+
+#opacity{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    opacity: 0.5;
+}
+
+#alpha{
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(50, 50, 200, 0.5);
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.basic-div{
+    width: 100px;
+    height: 100px;
+    background-color: #3d405b;
+    border: 1px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+#middle{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: #81b29a;
+    display: inline-block;
+}
+
+#relative #middle{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#absolute{
+    position: relative;
+}
+#absolute #middle{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    transition: 1s;
+}
+
+.circle:hover{
+    background-color: cyan;
+    border-radius: 100%;
+}
+
+#transition-section div{
+    height: 100px;
+    width: 100px;
+    background-color: turquoise;
+    margin: 20px 0;
+    transition: margin-left 3s;
+}
+
+#transition-section:hover div{
+    margin-left: 500px;
+}
+
+#transition-section div:nth-of-type(1){
+    transition-timing-function: ease-in;
+}
+
+#transition-section div:nth-of-type(2){
+    transition-timing-function: ease-out;
+}
+
+#transition-section div:nth-of-type(3){
+    transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+}
+
+#transition-section div:nth-of-type(4){
+    transition-timing-function: cubic-bezier(0.85, 0, 0.15, 1);
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+
